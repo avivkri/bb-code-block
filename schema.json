@@ -1,6 +1,8 @@
 {
   "type": "component",
-  "metadata": {},
+  "metadata": {
+    "svelteMajor": 5
+  },
   "schema": {
     "name": "bb-code-block",
     "friendlyName": "bb-code-block",
@@ -17,7 +19,10 @@
         "type": "select",
         "key": "theme",
         "label": "Theme",
-        "options": ["Dark", "Light"],
+        "options": [
+          "Dark",
+          "Light"
+        ],
         "defaultValue": "Dark"
       }
     ]
