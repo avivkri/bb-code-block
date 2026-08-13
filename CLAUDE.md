@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Canonical documentation
 
-This is one of seven Budibase plugin forks that share an identical build, release, and upgrade setup. **The full documentation lives in `../budibase-interval-plugin/CLAUDE.md`** — read it before changing the build, the release workflow, or the `svelte` version. It covers the rollup pipeline, the `schema.json` ↔ props contract, the release mechanics, and the mandatory rebuild procedure after a Budibase upgrade.
+This is one of seven Budibase plugin forks that share an identical build, release, and upgrade setup. **The full documentation lives in `../minikube-ground/dev-lab-setup/docs/budibase-plugins.md`** (the `minikube-ground` repo, cloned as a sibling of this one) — read it before changing the build, the release workflow, or the `svelte` version. It covers the rollup pipeline, the release mechanics, the codemod's known gaps, and the mandatory rebuild procedure after a Budibase upgrade.
 
 Only the facts specific to this repo are below.
 
